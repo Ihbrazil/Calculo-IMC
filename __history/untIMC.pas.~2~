@@ -1,0 +1,40 @@
+unit untIMC;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages,
+  System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs,
+  Vcl.StdCtrls;
+
+type
+  TfrmIMC = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    lblResultado: TLabel;
+    lblDiagnostico: TLabel;
+    lblRecomendacao: TLabel;
+    edtPeso: TEdit;
+    edtAltura: TEdit;
+    btnCalcular: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmIMC: TfrmIMC;
+  imc, peso, altura, pesoCerto, diferenca : Double;
+  diagnostico, recomendacao : string;
+
+
+implementation
+
+{$R *.dfm}
+
+end.

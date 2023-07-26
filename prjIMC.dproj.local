@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/25 19:59:52.000.915,=C:\Users\MASTER\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/25 20:50:03.000.517,C:\Users\MASTER\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\MASTER\OneDrive\Documentos\Projetos\Embarcadero Delphi\Delphi Start\Calculo IMC\untIMC.dfm</Transaction>
+    <Transaction>2023/07/25 20:50:03.000.517,C:\Users\MASTER\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\MASTER\OneDrive\Documentos\Projetos\Embarcadero Delphi\Delphi Start\Calculo IMC\untIMC.pas</Transaction>
+    <Transaction>2023/07/25 20:50:14.000.939,C:\Users\MASTER\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\MASTER\OneDrive\Documentos\Projetos\Embarcadero Delphi\Delphi Start\Calculo IMC\prjIMC.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

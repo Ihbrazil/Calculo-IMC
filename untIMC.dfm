@@ -1,0 +1,138 @@
+object frmIMC: TfrmIMC
+  Left = 0
+  Top = 0
+  Caption = 'C'#225'lculo de '#205'ndice de Massa Corporal'
+  ClientHeight = 442
+  ClientWidth = 628
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 136
+    Top = 24
+    Width = 377
+    Height = 38
+    Caption = #205'ndice de Massa Corporal'
+    Color = clBtnFace
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -27
+    Font.Name = 'Arial Black'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 160
+    Top = 96
+    Width = 36
+    Height = 23
+    Caption = 'Peso'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 440
+    Top = 103
+    Width = 24
+    Height = 16
+    Caption = 'Altura'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -12
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 183
+    Top = 328
+    Width = 99
+    Height = 18
+    Caption = 'RESULTADO:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblResultado: TLabel
+    Left = 288
+    Top = 328
+    Width = 85
+    Height = 18
+    Caption = 'lblResultado'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblDiagnostico: TLabel
+    Left = 288
+    Top = 360
+    Width = 84
+    Height = 20
+    Caption = 'lblDiagnostico'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblRecomendacao: TLabel
+    Left = 288
+    Top = 392
+    Width = 126
+    Height = 18
+    Caption = 'lblRecomendacao'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clFuchsia
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+  end
+  object edtPeso: TEdit
+    Left = 120
+    Top = 125
+    Width = 121
+    Height = 23
+    TabOrder = 0
+    Text = 'edtPeso'
+  end
+  object edtAltura: TEdit
+    Left = 400
+    Top = 125
+    Width = 121
+    Height = 23
+    TabOrder = 1
+    Text = 'edtAltura'
+  end
+  object btnCalcular: TButton
+    Left = 288
+    Top = 192
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindow
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = btnCalcularClick
+  end
+end
